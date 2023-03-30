@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(53, 53, 54);
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(242, 251, 255, 0.826);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item8 {
+    grid-area: 1/ 2/ 5/ 6;
+}
+
+.cabecalho {
+    background-color: rgb(122, 116, 116);
+    padding: 10px;
+}
+
+.item8 {
+    background-color: rgba(253, 142, 7, 0.76);
+}
